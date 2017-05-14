@@ -15,6 +15,7 @@ class Res extends Model implements AuthenticatableContract,
                                     CanResetPasswordContract
 {
     use Authenticatable, Authorizable, CanResetPassword;
+    public $timestamps = false;
 
     /**
      * The database table used by the model.

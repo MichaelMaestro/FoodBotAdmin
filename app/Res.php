@@ -29,7 +29,7 @@ class Res extends Model implements AuthenticatableContract,
      *
      * @var array
      */
-    protected $fillable = ['name', 'lic','login','pass','phone','name_dir','e-mail'];
+    protected $fillable = ['acs','name', 'lic','login','phone','name_dir','e-mail'];
 
     /**
      * The attributes excluded from the model's JSON form.
